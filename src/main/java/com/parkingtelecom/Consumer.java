@@ -11,8 +11,8 @@ public class Consumer {
     private static final Logger logger = LoggerFactory.getLogger(Consumer.class);
 
 
-    @RabbitListener(queues="msgprocess")
+    /*@RabbitListener(queues="msgprocess")
     public void recievedMessage(String msg) {
-        System.out.println("Recieved Message: " + msg);
-    }
+        logger.info("Recieved Message: " + msg);
+    }*/
 }

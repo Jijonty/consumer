@@ -1,40 +1,22 @@
 package com.parkingtelecom.entity;
 
 public class ConsumerEntity {
-    private String exchange;
-    private String routingKey;
-    private Long messages;
-    private String payload;
+   private String queue;
+   private Integer consumers;
 
-    public String getExchange() {
-        return exchange;
+    public String getQueue() {
+        return queue;
     }
 
-    public void setExchange(String exchange) {
-        this.exchange = exchange;
+    public void setQueue(String queue) {
+        this.queue = queue;
     }
 
-    public String getRoutingKey() {
-        return routingKey;
+    public Integer getConsumers() {
+        return consumers;
     }
 
-    public void setRoutingKey(String routingKey) {
-        this.routingKey = routingKey;
-    }
-
-    public Long getMessages() {
-        return messages;
-    }
-
-    public void setMessages(Long messages) {
-        this.messages = messages;
-    }
-
-    public String getPayload() {
-        return payload;
-    }
-
-    public void setPayload(String payload) {
-        this.payload = payload;
+    public void setConsumers(Integer consumers) {
+        this.consumers = consumers;
     }
 }
