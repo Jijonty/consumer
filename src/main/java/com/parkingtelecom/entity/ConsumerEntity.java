@@ -1,6 +1,6 @@
-package com.parkingtelecom.dto;
+package com.parkingtelecom.entity;
 
-public class ConsumerDTO {
+public class ConsumerEntity {
     private String exchange;
     private String routingKey;
     private Long messages;

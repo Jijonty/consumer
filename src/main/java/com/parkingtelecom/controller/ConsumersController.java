@@ -1,6 +1,7 @@
 package com.parkingtelecom.controller;
 
-import com.parkingtelecom.dto.ConsumerDTO;
+import com.parkingtelecom.Consumer;
+import com.parkingtelecom.entity.ConsumerEntity;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.PostMapping;
@@ -13,7 +14,7 @@ public class ConsumersController {
 
     @PostMapping("/rabbit/consumers")
     @ResponseBody
-    public ResponseEntity<?> produceMessage(@RequestBody ConsumerDTO dto) {
+    public ResponseEntity<?> produceMessage(@RequestBody ConsumerEntity dto) {
         return null;
     }
 
