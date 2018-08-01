@@ -1,4 +1,4 @@
-package com.parkingtelecom.controller.service;
+package com.parkingtelecom.service;
 
 import com.parkingtelecom.entity.ConsumerEntity;
 

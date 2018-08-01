@@ -1,6 +1,6 @@
 package com.parkingtelecom.controller;
 
-import com.parkingtelecom.controller.service.ConsumerService;
+import com.parkingtelecom.service.ConsumerService;
 import com.parkingtelecom.entity.ConsumerEntity;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
